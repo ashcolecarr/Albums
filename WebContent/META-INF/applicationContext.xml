@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+<bean id="CDData" class="data.AlbumInfo" scope="session">
+	<property name="artistName" value="The Artist"/>
+    <property name="albumName" value="The Album"/>
+    <property name="year" value="1985"/>
+</bean>
+
+</beans>
